@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+.productgrid{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: 200px;
+  width: 90%;
+  margin: auto;
+  gap: 20px;
+}

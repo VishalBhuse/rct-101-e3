@@ -1,7 +1,18 @@
 import React from "react";
+import Product from "./Product/Product";
 
 const Products = () => {
-  return <div>{/* Code here */}</div>;
+  return (
+
+    <>
+    <h1>Products</h1>
+
+  <div className="productgrid">{/* Code here */}
+  
+  <Product />
+  </div>;
+  </>
+    )
 };
 
 export default Products;

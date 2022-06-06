@@ -1,4 +1,7 @@
 import "./App.css";
+import { Navbar } from "./components/Navbar";
+import Products from "./components/Products/Products";
+import Login from "./pages/Login";
 
 function App() {
   return (
@@ -6,6 +9,9 @@ function App() {
       {
         // Code here
       }
+      <Navbar />
+      <Login />
+      <Products />
     </div>
   );
 }
